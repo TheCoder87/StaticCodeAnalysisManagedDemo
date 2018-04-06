@@ -3,6 +3,7 @@ using System.Runtime.Serialization;
 
 namespace CodeAnalysisManagedDemo
 {
+    [Serializable()]
     public class DemoException : Exception
     {
         public DemoException()
