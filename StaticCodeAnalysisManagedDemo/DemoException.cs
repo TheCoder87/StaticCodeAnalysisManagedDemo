@@ -35,8 +35,8 @@ namespace CodeAnalysisManagedDemo
 
         }
 
-        protected static readonly int _Item;
+        private static readonly int item;
 
-        public static int Item { get { return _Item; } }
+        public static int Item { get { return item; } }
     }
 }
